@@ -1,0 +1,159 @@
+.add{
+  width: 100%;
+  /* margin: 0; */
+  color: #6d6d6d;
+  font-size: 16px;
+  margin-left: 160px;
+}
+.add form{
+  gap: 10px;
+.add {
+  width: 70%;
+  margin-left: max(5vw, 25px);
+  margin-top: 50px;
+  color: #6d6d6d;
+  font-size: 16px;
+}
+
+.add form {
+  gap: 10px;
+}
+
+.add h2 {
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.add-img-upload {
+  gap: 10px;
+}
+
+.add-img-upload input {
+  width: 120px;
+  cursor: pointer;
+  border: 1px dashed #ccc;
+  border-radius: 8px;
+  padding: 10px;
+}
+
+.add-img-upload p {
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+
+.add-product-name,
+.add-porduct-description {
+  width: max(40%, 280px);
+  gap: 5px;
+}
+
+.add-product-name p,
+.add-porduct-description p,
+.add-category p,
+.add-price p {
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+
+.add-product-name input,
+.add-porduct-description textarea {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  outline: none;
+  font-family: inherit;
+}
+
+.add-product-name input:focus,
+.add-porduct-description textarea:focus {
+  border-color: #ff6347;
+}
+
+.add-category-price {
+  display: flex;
+  gap: 30px;
+}
+
+.add-category,
+.add-price {
+  gap: 5px;
+}
+
+.add-category-price select,
+.add-category-price input {
+  padding: 10px;
+  max-width: 120px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  outline: none;
+}
+
+.add-category-price select:focus,
+.add-category-price input:focus {
+  border-color: #ff6347;
+}
+
+.add-btn {
+  border: none;
+  max-width: 120px;
+  padding: 10px;
+  border-radius: 4px;
+  background-color: black;
+  color: white;
+  font-size: 15px;
+  cursor: pointer;
+  margin-top: 15px;
+}
+
+.add-btn:hover {
+  opacity: 0.85;
+}
+@media (max-width: 768px) {
+  .add {
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 20px;
+  }
+
+  .add-product-name,
+  .add-porduct-description {
+    width: 100%;
+  }
+
+  .add-category-price {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+.add-category-price select, .add-category-price input {
+    max-width: 100%;
+  }
+}
+}
+.add-img-upload img{
+ width: 120px;
+}
+.add-product-name, .add-porduct-description{
+width: max(40%,280px);
+}
+.add-product-name input, .add-porduct-description textarea{
+  padding: 10px;
+}
+.add-category-price{
+  display: flex;
+  gap:30px;
+}
+.add-category-price select ,.add-category-price input{
+  padding: 10px;
+  max-width: 120px;
+}
+.add-btn{
+  border: none;
+  max-width: 120px;
+  padding: 10px;
+  border-radius: 4px;
+  background-color:black;
+  color: white;
+  font-size: 15px;
+  cursor: pointer;
+}
